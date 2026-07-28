@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Daily Horoscope</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+min-height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:20px;
+
+font-family:Georgia,serif;
+
+color:white;
+
+background:
+radial-gradient(circle at top,
+#4a2572,
+#120d2b 60%,
+#050510);
+
+}
+
+
+.card{
+
+width:100%;
+
+max-width:420px;
+
+padding:30px 20px;
+
+text-align:center;
+
+background:
+rgba(255,255,255,.12);
+
+border-radius:30px;
+
+backdrop-filter:blur(12px);
+
+box-shadow:
+0 0 40px rgba(230,190,80,.35);
+
+}
+
+
+.symbol{
+
+font-size:75px;
+
+color:#f4d06f;
+
+text-shadow:
+0 0 25px gold;
+
+}
+
+
+h1{
+
+font-size:38px;
+
+color:#f4d06f;
+
+margin:5px;
+
+}
+
+
+.title{
+
+font-size:22px;
+
+}
+
+
+.date{
+
+margin:12px;
+
+opacity:.75;
+
+}
+
+
+.horoscope{
+
+background:
+rgba(0,0,0,.25);
+
+padding:22px;
+
+border-radius:20px;
+
+font-size:17px;
+
+line-height:1.6;
+
+}
+
+
+.details{
+
+display:flex;
+
+gap:8px;
+
+margin-top:20px;
+
+}
+
+
+.box{
+
+flex:1;
+
+background:
+rgba(255,255,255,.1);
+
+padding:12px 5px;
+
+border-radius:15px;
+
+font-size:13px;
+
+}
+
+
+.box b{
+
+color:#f4d06f;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="card">
+
+
+<div class="symbol" id="symbol">
+♉
+</div>
+
+
+<h1 id="sign">
+Taurus
+</h1>
+
+
+<div class="title">
+Daily Horoscope
+</div>
+
+
+<div class="date" id="date">
+</div>
+
+
+<div class="horoscope" id="horoscope">
+
+Loading your horoscope...
+
+</div>
+
+
+<div class="details">
+
+
+<div class="box">
+
+⭐
+
+<br>
+
+Lucky Number
+
+<br>
+
+<b id="number">
+--
+</b>
+
+</div>
+
+
+<div class="box">
+
+🎨
+
+<br>
+
+Lucky Color
+
+<br>
+
+<b id="color">
+--
+</b>
+
+</div>
+
+
+<div class="box">
+
+⏰
+
+<br>
+
+Lucky Time
+
+<br>
+
+<b id="time">
+--
+</b>
+
+</div>
+
+
+</div>
+
+
+</div>
