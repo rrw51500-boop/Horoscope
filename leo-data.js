@@ -1,6 +1,6 @@
 window.leoReadings = [
 {
-date: "July 29, 2026",
+date: "July 28, 2026",
 reading: "...",
 luckyNumber: 8,
 luckyColor: "Golden Yellow",
