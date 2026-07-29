@@ -1,4 +1,4 @@
-const taurusReadings = [
+window.taurusReadings = [
 
  {
 date: "January 1, 2026",
