@@ -6,6 +6,6 @@ reading: "Your Leo energy shines brightly today. Your confidence and creativity 
 luckyNumber: 8,
 luckyColor: "Golden Yellow",
 luckyTime: "6:45 PM"
-}
+
 
 ];
