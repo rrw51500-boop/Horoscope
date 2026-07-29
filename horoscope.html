@@ -245,3 +245,189 @@ Lucky Time
 
 
 </div>
+<script>
+<script>
+
+const zodiacSigns = {
+
+taurus:{
+name:"Taurus",
+symbol:"♉"
+},
+
+aries:{
+name:"Aries",
+symbol:"♈"
+},
+
+gemini:{
+name:"Gemini",
+symbol:"♊"
+},
+
+cancer:{
+name:"Cancer",
+symbol:"♋"
+},
+
+leo:{
+name:"Leo",
+symbol:"♌"
+},
+
+virgo:{
+name:"Virgo",
+symbol:"♍"
+},
+
+libra:{
+name:"Libra",
+symbol:"♎"
+},
+
+scorpio:{
+name:"Scorpio",
+symbol:"♏"
+},
+
+sagittarius:{
+name:"Sagittarius",
+symbol:"♐"
+},
+
+capricorn:{
+name:"Capricorn",
+symbol:"♑"
+},
+
+aquarius:{
+name:"Aquarius",
+symbol:"♒"
+},
+
+pisces:{
+name:"Pisces",
+symbol:"♓"
+}
+
+};
+
+
+// Get sign from QR code link
+
+let url =
+new URLSearchParams(window.location.search);
+
+
+let sign =
+url.get("sign") || "taurus";
+
+
+let zodiac =
+zodiacSigns[sign] || zodiacSigns.taurus;
+
+
+// Change page title
+
+document.getElementById("symbol").innerHTML =
+zodiac.symbol;
+
+
+document.getElementById("sign").innerHTML =
+zodiac.name;
+
+
+
+// Load correct horoscope file
+
+let script =
+document.createElement("script");
+
+
+script.src =
+sign + "-data.js";
+
+
+script.onload =
+showHoroscope;
+
+
+document.body.appendChild(script);
+
+
+
+
+
+function showHoroscope(){
+
+
+let today =
+new Date().toLocaleDateString(
+"en-US",
+{
+month:"long",
+day:"numeric",
+year:"numeric"
+}
+);
+
+
+
+document.getElementById("date").innerHTML =
+today;
+
+
+
+let readings =
+window[sign + "Readings"];
+
+
+
+let reading =
+readings.find(
+item => item.date === today
+);
+
+
+
+if(reading){
+
+
+document.getElementById("horoscope").innerHTML =
+reading.reading;
+
+
+document.getElementById("number").innerHTML =
+reading.luckyNumber;
+
+
+document.getElementById("color").innerHTML =
+reading.luckyColor;
+
+
+document.getElementById("time").innerHTML =
+reading.luckyTime;
+
+
+}
+
+else{
+
+
+document.getElementById("horoscope").innerHTML =
+"Your daily reading is being prepared. Check back soon.";
+
+
+}
+
+
+}
+
+
+</script>
+</script>
+
+
+</body>
+
+</html>
