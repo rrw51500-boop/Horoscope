@@ -348,8 +348,13 @@ script.src =
 sign + "-data.js";
 
 
-script.onload =
-showHoroscope;
+script.onload = function(){
+
+console.log("Taurus file loaded");
+
+showHoroscope();
+
+};
 
 
 document.body.appendChild(script);
