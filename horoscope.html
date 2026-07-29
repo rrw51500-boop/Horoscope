@@ -382,7 +382,12 @@ today;
 
 
 
-let readings = taurusReadings;
+let readings = window[sign + "Readings"];
+
+let reading =
+readings.find(
+item => item.date === today
+);
 
 
 
