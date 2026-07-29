@@ -1,16 +1,9 @@
 window.leoReadings = [
-{
+
+ {
 date: "July 28, 2026",
-reading: "...",
-luckyNumber: 8,
-luckyColor: "Golden Yellow",
-luckyTime: "6:45 PM"
-}
-  {
-date: "July 29, 2026",
-reading: "...",
-luckyNumber: 8,
-luckyColor: "Golden Yellow",
-luckyTime: "6:45 PM"
-}
-];
+reading: "A fresh beginning arrives with steady Taurus energy. Today is a great time to set practical goals and focus on the future you want to build. Your patience and determination will help you turn ideas into real progress. Trust your instincts and take the first step toward something meaningful.",
+luckyNumber: 7,
+luckyColor: "Emerald Green",
+luckyTime: "7:00 PM"
+},
