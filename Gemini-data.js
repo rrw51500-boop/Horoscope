@@ -1,4 +1,4 @@
-window.leoReadings = [
+window.'GeminiReadings = [
 
 {
 date: "August 2, 2026",
