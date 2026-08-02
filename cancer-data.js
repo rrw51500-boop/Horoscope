@@ -1,4 +1,4 @@
-window.aquariusReadings = [
+window.cancerReadings = [
 
 {
 date: "August 2, 2026",
