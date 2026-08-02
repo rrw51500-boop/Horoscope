@@ -2,25 +2,25 @@ window.cancerReadings = [
 
 {
 date: "August 2, 2026",
-reading: "Your Aquarius energy shines brightly today. Your creative thinking and unique ideas can help you solve a problem or discover a new opportunity. Trust your imagination, but stay connected with the people around you. A fresh perspective may lead you toward something exciting and meaningful.",
+reading: "Your Aries energy is strong today, bringing confidence and motivation to everything you do. Trust your instincts and take action toward your goals, but remember that patience can help you make the right choices. A new opportunity may appear when you least expect it, so stay open and believe in your abilities as you move forward.",
 luckyNumber: 9,
-luckyColor: "Electric Blue",
+luckyColor: "Ruby Red",
 luckyTime: "8:00 PM"
 },
 
 {
 date: "July 28, 2026",
-reading: "Today encourages Aquarius to embrace new ideas and explore different possibilities. Your ability to think differently helps you find solutions others may miss. Stay confident in your choices and remember that your originality is one of your greatest strengths.",
+reading: "Today encourages you to focus your energy on the things that matter most. Your natural determination helps you overcome obstacles and find creative solutions to challenges. Someone may notice your leadership skills and offer support or encouragement. Keep moving forward with confidence because your positive attitude can open unexpected doors.",
 luckyNumber: 14,
-luckyColor: "Bright Blue",
+luckyColor: "Bright Orange",
 luckyTime: "6:30 PM"
 },
 
 {
 date: "July 29, 2026",
-reading: "Aquarius, today brings inspiration and new opportunities for growth. Your curiosity and creativity can open doors when you share your ideas with others. Take time to plan your next move and trust that your unique approach will guide you in the right direction.",
+reading: "Aries, today brings a wave of fresh inspiration and personal growth. Listen carefully to your inner voice because it may guide you toward an important decision. Your courage and enthusiasm are powerful strengths, but taking a moment to think before acting will bring even better results. A small step today can create a bigger success tomorrow.",
 luckyNumber: 22,
-luckyColor: "Silver",
+luckyColor: "Crimson",
 luckyTime: "7:15 PM"
 }
 
