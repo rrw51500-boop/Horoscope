@@ -1,4 +1,4 @@
-window.'GeminiReadings = [
+window.geminiReadings = [
 
 {
 date: "August 2, 2026",
